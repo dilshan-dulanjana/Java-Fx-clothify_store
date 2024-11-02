@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="Placeorder interface done">
+    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="signup form interface done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PlaceOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PlaceOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CrudUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CrudUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,24 +40,26 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2o9iT42pRUjpGreb3Jyrk558zjO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev/dilshan&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Intelije-project/JavaFX-Day-05&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Intelije-project/Cloths_Store/src/main/java/edu/iuhs/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "dev/dilshan",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intelije-project/JavaFX-Day-03---2024-09-16-main",
+    "onboarding.tips.debug.path": "D:/Intelije-project/Cloths_Store/src/main/java/edu/iuhs/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intelije-project\Cloths_Store" />
@@ -96,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730289442737</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="signup form interface done">
+      <option name="closed" value="true" />
+      <created>1730380877832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730380877832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +130,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="check" />
     <MESSAGE value="Placeorder interface done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Placeorder interface done" />
+    <MESSAGE value="signup form interface done" />
+    <option name="LAST_COMMIT_MESSAGE" value="signup form interface done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,6 +141,10 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.cj.exceptions.DataConversionException" package="com.mysql.cj.exceptions" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
