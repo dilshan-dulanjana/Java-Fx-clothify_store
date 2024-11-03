@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="signup form interface done">
+    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="product register form CRUD is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/CrudUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CrudUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PlaceOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PlaceOrder.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "dev/dilshan",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Intelije-project/JavaFX-Day-03---2024-09-16-main",
+    "last_opened_file_path": "D:/Intelije-project/Cloths_Store",
     "onboarding.tips.debug.path": "D:/Intelije-project/Cloths_Store/src/main/java/edu/iuhs/Main.java"
   }
 }]]></component>
@@ -112,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730380877832</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="product register form CRUD is done">
+      <option name="closed" value="true" />
+      <created>1730572530794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730572530794</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +135,8 @@
     <MESSAGE value="check" />
     <MESSAGE value="Placeorder interface done" />
     <MESSAGE value="signup form interface done" />
-    <option name="LAST_COMMIT_MESSAGE" value="signup form interface done" />
+    <MESSAGE value="product register form CRUD is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="product register form CRUD is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
