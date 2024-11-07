@@ -14,6 +14,7 @@ public class CrudUtil {
         for (int i =0;i<args.length;i++){
 
         pstm.setObject(i+1,args[i]);
+        
         }
 
         if(sql.startsWith("SELECT")||sql.startsWith(("select"))){

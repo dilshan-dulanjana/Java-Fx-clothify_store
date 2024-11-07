@@ -6,21 +6,14 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static DBConnection instance;
-
     Connection connection;
     private DBConnection() throws SQLException {
-
-         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/thogakade","root","1234");
+        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/clothingstore", "root", "1234");
     }
-
-
     public Connection getConnection(){
-
         return connection;
     }
-    
     public static DBConnection getInstance() throws SQLException {
-
         return instance==null?instance=new DBConnection():instance;
     }
 }
