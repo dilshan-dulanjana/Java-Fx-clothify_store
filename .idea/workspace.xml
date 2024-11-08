@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="place order cart is ok">
+    <list default="true" id="d994946f-9e02-4009-b101-aa96ec2b3710" name="Changes" comment="Dash Board ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev/dilshan&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Intelije-project/Cloths_Store&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Intelije-project/Cloths_Store/src/main/java/edu/iuhs/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "dev/dilshan",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intelije-project/JavaFX-Day-03---2024-09-16-main",
+    "onboarding.tips.debug.path": "D:/Intelije-project/Cloths_Store/src/main/java/edu/iuhs/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intelije-project\Cloths_Store" />
@@ -123,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730649225177</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dash Board ready">
+      <option name="closed" value="true" />
+      <created>1730997786066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730997786066</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +151,8 @@
     <MESSAGE value="signup form interface done" />
     <MESSAGE value="product register form CRUD is done" />
     <MESSAGE value="place order cart is ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="place order cart is ok" />
+    <MESSAGE value="Dash Board ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dash Board ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
